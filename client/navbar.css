@@ -1,0 +1,62 @@
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem
+        /* 80px */
+    ;
+}
+
+.nav2 {
+    max-width: 1280px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav3 {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+@media (min-width: 640px) {
+    .nav3 {
+        font-size: 2.25rem
+            /* 36px */
+        ;
+        line-height: 2.5rem
+            /* 40px */
+        ;
+    }
+}
+
+.nav4 {
+    display: flex;
+    gap: 1.25rem
+        /* 20px */
+    ;
+}
